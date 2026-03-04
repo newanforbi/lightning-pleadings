@@ -27,3 +27,7 @@ Then open [http://localhost:5000](http://localhost:5000) and start generating la
 ## Deploy
 
 This app is configured for one-click deploy on Render via `render.yaml`. Connect the GitHub repo and let it rip.
+
+## Live Demo
+
+Check it out: [https://lightning-pleadings.onrender.com](https://lightning-pleadings.onrender.com)
