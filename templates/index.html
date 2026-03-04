@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightning Pleadings &mdash; Random Lawsuit Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lightning Pleadings</h1>
+            <p class="subtitle">Random Lawsuit Generator</p>
+        </header>
+
+        <main>
+            <p class="description">
+                Generate a completely random, absurd-but-legally-formatted
+                California-style lawsuit. Each click produces a unique complaint
+                with randomized parties, causes of action, and legal arguments
+                &mdash; all rendered on proper pleading paper with numbered lines.
+            </p>
+
+            <form action="/generate" method="POST" target="_blank">
+                <button type="submit" class="generate-btn">
+                    Generate Lawsuit
+                </button>
+            </form>
+
+            <p class="hint">Opens a print-ready PDF in a new tab.</p>
+        </main>
+
+        <footer>
+            <p class="disclaimer">
+                For entertainment purposes only. Generated documents are entirely
+                fictitious and do not constitute legal advice, legal documents,
+                or anything even remotely resembling competent legal counsel.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

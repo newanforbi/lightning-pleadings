@@ -1,0 +1,94 @@
+/* Lightning Pleadings — Dark legal theme */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    background-color: #1a1a2e;
+    color: #e0d8c8;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 2.5rem;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #c9a84c;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #8a8272;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    color: #b8b0a0;
+}
+
+.generate-btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    background-color: #c9a84c;
+    border: 2px solid #c9a84c;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    transition: all 0.2s ease;
+}
+
+.generate-btn:hover {
+    background-color: transparent;
+    color: #c9a84c;
+}
+
+.generate-btn:active {
+    transform: scale(0.97);
+}
+
+.hint {
+    font-size: 0.85rem;
+    color: #6a6458;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #2a2a3e;
+}
+
+.disclaimer {
+    font-size: 0.8rem;
+    color: #5a5548;
+    line-height: 1.5;
+}
