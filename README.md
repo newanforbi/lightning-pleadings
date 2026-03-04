@@ -2,6 +2,8 @@
 
 A random lawsuit generator web app — dedicated to the legal beagles in penal institutions everywhere, and particularly to those at San Quentin who dared to challenge the status quo.
 
+**Try it live:** [https://lightning-pleadings.onrender.com](https://lightning-pleadings.onrender.com)
+
 I now find myself embroiled in several lawsuits in California, so naturally I built a web app that generates fake lawsuit PDFs at the push of a button. Hit the button, get a professionally formatted pleading complete with randomized parties, causes of action, and legal boilerplate. Every refresh is a new case.
 
 ## Tech Stack
@@ -28,6 +30,3 @@ Then open [http://localhost:5000](http://localhost:5000) and start generating la
 
 This app is configured for one-click deploy on Render via `render.yaml`. Connect the GitHub repo and let it rip.
 
-## Live Demo
-
-Check it out: [https://lightning-pleadings.onrender.com](https://lightning-pleadings.onrender.com)
